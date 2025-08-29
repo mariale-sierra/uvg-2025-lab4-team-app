@@ -1,0 +1,18 @@
+//  Lista de Fake Team Members
+
+package com.uvg.teamapp.repository
+
+import com.uvg.teamapp.model.TeamMember
+
+object FakeTeamRepository {
+    fun getTeamMembers(): List<TeamMember> {
+        return listOf(
+            TeamMember("Emily", "Android Developer"),
+            TeamMember("Alejandra", "Backend Developer, Manager"),
+            TeamMember("Camila", "UI Designer"),
+            TeamMember("Ariana", "UX Designer"),
+            TeamMember("Georgia", "iOS Developer"),
+        )
+    }
+}
+
